@@ -1,0 +1,142 @@
+header.container {
+    position: relative;
+    height: 35px;
+    min-width: 350px;
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+
+ul.row li.nav {
+    list-style: none;
+    margin: 5px;
+    position: relative;
+    left: 15px;
+    color: black;
+}
+li:hover {
+     background-image:linear-gradient(#2abfd4,#f6d500);
+     height: 35px;
+     width: fit-content;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+}
+
+.inl {
+    display: inline-block;
+}
+
+div.main span {
+    position: absolute;
+    left: 80%;
+    top: 10px;
+}
+
+div.main span a.break {
+position: relative;
+left: 75px;
+}
+a {
+    text-decoration: none;
+}
+section {
+    position: relative;
+}
+
+.background-i {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/Slider-03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bet {
+    font-size: 32px;
+    z-index: 1;
+    position: absolute;
+    left: 37%;
+    top: 50%;
+}
+.up {
+    font-size: 54px;
+    z-index: 1;
+    position: absolute;
+    left: 39%;
+    top: 35%;
+}
+.down {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 45%;
+    top: 65%;
+    border:2px solid white;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.down:hover {
+    border: 5px solid #f6d500;
+    color: #f6d500;
+}
+.last-part {
+    position: relative;
+    display: calc(100%/4);
+    box-sizing: border-box;
+}
+
+.asd {
+    display: inline-block;
+    margin: 0 75px;
+    position:relative;
+    left: 7px;
+    bottom: 80px;
+}
+
+
+
+.odd {
+    width: 200px;
+    height: 200px;
+    background-color:#2abfd4;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.even {
+    width: 200px;
+    height: 200px;
+    background-color:#f6d500;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+div.asd img {
+position: relative;
+left: 80px;
+top: 80px;
+}
+div.asd h3 {
+position: relative;
+top: 175px;
+left: 25px;
+}
+div.asd p {
+position: relative;
+top: 175px;
+left: 25px;
+justify-content: center;
+}
